@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33AA507928310B9300BB4D6B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA507828310B9300BB4D6B /* DetailView.swift */; };
+		33AA507B2831113300BB4D6B /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA507A2831113300BB4D6B /* OffsetModifier.swift */; };
 		33D9713728306DDC00434231 /* MovieViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9713628306DDC00434231 /* MovieViewerApp.swift */; };
 		33D9713928306DDC00434231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9713828306DDC00434231 /* ContentView.swift */; };
 		33D9713B28306DDD00434231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D9713A28306DDD00434231 /* Assets.xcassets */; };
@@ -14,6 +16,10 @@
 		33D9714828306DDE00434231 /* MovieViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9714728306DDE00434231 /* MovieViewerTests.swift */; };
 		33D9715228306DDE00434231 /* MovieViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9715128306DDE00434231 /* MovieViewerUITests.swift */; };
 		33D9715428306DDE00434231 /* MovieViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9715328306DDE00434231 /* MovieViewerUITestsLaunchTests.swift */; };
+		33D9716328306E1B00434231 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9716228306E1B00434231 /* Home.swift */; };
+		33D9716528306F5E00434231 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9716428306F5E00434231 /* Movie.swift */; };
+		33D97167283075CC00434231 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D97166283075CC00434231 /* SnapCarousel.swift */; };
+		33D9716928307CA100434231 /* SnapCarousel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D9716828307CA100434231 /* SnapCarousel2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33AA507828310B9300BB4D6B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		33AA507A2831113300BB4D6B /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		33D9713328306DDC00434231 /* MovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D9713628306DDC00434231 /* MovieViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewerApp.swift; sourceTree = "<group>"; };
 		33D9713828306DDC00434231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,10 @@
 		33D9714D28306DDE00434231 /* MovieViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D9715128306DDE00434231 /* MovieViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewerUITests.swift; sourceTree = "<group>"; };
 		33D9715328306DDE00434231 /* MovieViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33D9716228306E1B00434231 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		33D9716428306F5E00434231 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		33D97166283075CC00434231 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		33D9716828307CA100434231 /* SnapCarousel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,8 @@
 		33D9713528306DDC00434231 /* MovieViewer */ = {
 			isa = PBXGroup;
 			children = (
+				33D9716128306DEC00434231 /* Model */,
+				33D9716028306DE500434231 /* View */,
 				33D9713628306DDC00434231 /* MovieViewerApp.swift */,
 				33D9713828306DDC00434231 /* ContentView.swift */,
 				33D9713A28306DDD00434231 /* Assets.xcassets */,
@@ -125,6 +139,26 @@
 				33D9715328306DDE00434231 /* MovieViewerUITestsLaunchTests.swift */,
 			);
 			path = MovieViewerUITests;
+			sourceTree = "<group>";
+		};
+		33D9716028306DE500434231 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33D9716228306E1B00434231 /* Home.swift */,
+				33D97166283075CC00434231 /* SnapCarousel.swift */,
+				33D9716828307CA100434231 /* SnapCarousel2.swift */,
+				33AA507828310B9300BB4D6B /* DetailView.swift */,
+				33AA507A2831113300BB4D6B /* OffsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33D9716128306DEC00434231 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33D9716428306F5E00434231 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D9716928307CA100434231 /* SnapCarousel2.swift in Sources */,
 				33D9713928306DDC00434231 /* ContentView.swift in Sources */,
+				33D9716328306E1B00434231 /* Home.swift in Sources */,
+				33AA507928310B9300BB4D6B /* DetailView.swift in Sources */,
+				33D9716528306F5E00434231 /* Movie.swift in Sources */,
+				33AA507B2831113300BB4D6B /* OffsetModifier.swift in Sources */,
 				33D9713728306DDC00434231 /* MovieViewerApp.swift in Sources */,
+				33D97167283075CC00434231 /* SnapCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
